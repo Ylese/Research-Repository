@@ -16,7 +16,7 @@ This section contains the code examples provided by the instructors during our l
 
 
 
-### [Bank Account](Python_Exercises\Lectures\Bank_Account\Main.py)
+### [Bank Account](Python_Exercises/Lectures/Bank_Account/Main.py)
 When you run this code, it will create a bank account, perform the specified transactions, and display the account's information. In this example, it will show the account holder's name, account number, balance, and opening date.
 
 This includes two classes, `BankAccount` class which includes everything that is needed in the program, and the `Main` class; It allows you to control what happens when your script is run. Code inside this block will only execute if the script is the main program (i.e., directly executed by the Python interpreter). If the script is imported as a module into another script, the code inside this block won't execute.
