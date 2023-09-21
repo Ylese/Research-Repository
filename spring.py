@@ -1,15 +1,18 @@
+# import libraries/modules
 import random
 from math import sqrt
 from turtle import *
 
+# general constants and variables
 DEBUG = False
 BRANCH_LENGTH = 60
 SUN_RADIUS = 40
 MAGIC = 12
 
-
+# This class encapsulates the functionality of drawing the flowering tree.
 class FloweringTree:
-    def __init__(self):
+    def __init__(self): 
+        # initialize turtle and screen
         self.petal_count = 0
         self.petal_left_border = 0.0
         self.petal_right_border = 0.0
@@ -23,6 +26,7 @@ class FloweringTree:
         self.turtle.up()
 
     def tree(self, branch_len):
+        # draw tree branches and leaves
         if branch_len > 3:
             if 8 <= branch_len <= 12:
                 if random.randint(0, 2) == 0:
@@ -65,6 +69,7 @@ class FloweringTree:
             self.turtle.backward(branch_len)
 
     def petal_field(self, count, left_border=-100.0, right_border=100.0):
+        #  Draw a field of petals around the tree
         middle = (right_border + left_border) / 2
         frame_width = (right_border - left_border) / 3
         depth = int(sqrt(frame_width))
@@ -100,6 +105,7 @@ class FloweringTree:
         self.turtle.up()
 
     def the_sun(self, radius=30):
+        # draw the sun in the sky
         start_pos = self.turtle.pos()
         self.turtle.forward(500)
         self.turtle.left(90)
@@ -120,6 +126,7 @@ class FloweringTree:
         self.turtle.goto(start_pos)
 
     def draw(self):
+        # draw an entire scene
         try:
             self.turtle.left(90)
             self.turtle.backward(250)

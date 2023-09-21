@@ -3,7 +3,6 @@ import random
 
 from objects import Grumpy, Pipe, Base, Score
 
-# Setup *******************************************
 
 pygame.init()
 SCREEN = WIDTH, HEIGHT = 288, 512

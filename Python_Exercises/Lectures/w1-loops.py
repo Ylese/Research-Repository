@@ -1,7 +1,9 @@
 #timer
 #countdown the timer
 # import time
-import random
+
+import random # This line imports the random module, which provides functions for working with random numbers.
+
 # counter = 5
 
 # while counter >= 0:
@@ -39,7 +41,7 @@ import random
 #     print(num_str)
 
 #Random
-num_str = ""
+num_str = "" # generate random numbers between 1 and 99 and concatenate them into the num_str
 for i in range(1,11):
     rnd_number = (1, 99)
     num_str += str(rnd_number) + '|'

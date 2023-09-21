@@ -19,7 +19,7 @@ This section contains the code examples provided by the instructors during our l
 ### [Bank Account](Python_Exercises\Lectures\Bank_Account\Main.py)
 When you run this code, it will create a bank account, perform the specified transactions, and display the account's information. In this example, it will show the account holder's name, account number, balance, and opening date.
 
-This includes two classes, BankAccount class which includes everything that is needed in the program, and the Main class; It allows you to control what happens when your script is run. Code inside this block will only execute if the script is the main program (i.e., directly executed by the Python interpreter). If the script is imported as a module into another script, the code inside this block won't execute.
+This includes two classes, `BankAccount` class which includes everything that is needed in the program, and the `Main` class; It allows you to control what happens when your script is run. Code inside this block will only execute if the script is the main program (i.e., directly executed by the Python interpreter). If the script is imported as a module into another script, the code inside this block won't execute.
 
 -    [Bank Account](Python_Exercises\Lectures\Bank_Account\BankAccount.py)
 -    [Main](Python_Exercises\Lectures\Bank_Account\Main.py)
@@ -34,48 +34,53 @@ This program essentially provides a text-based interface for users to interact w
 -   [User](Python_Exercises\Lectures\Library\User.py)
 -   [Book](Python_Exercises\Lectures\Library\Book.py)
 
+
 ### [Character](Python_Exercises\Lectures\Character.py)
-This program contains basic information about OOP. It includes class Character with attributes 'name', and 'health_points'. 
+This program contains basic information about OOP. It includes class Character with attributes `name`, and `health_points`.
 
 ### [Starter](Python_Exercises\Lectures\Ex-1-starter.py)
-In this code, the turtle banana will move forward by 100 units, then turn left by 90 degrees, and finally move forward by 50 units. These commands create a simple drawing using the turtle graphics library.
+This code uses a Turtle object named `banana` to draw a simple shape that resembles an inverted letter "L." The turtle moves forward, turns left, moves up, turns right, and moves to the right again to create this shape. Turtle graphics are often used for teaching programming concepts and creating simple drawings.
 
 ### [Shapes](Python_Exercises\Lectures\Ex4-shapes.py)
-When you run this code, it will display a Turtle graphics window and draw a pentagon with each side of 100 units in length. You can change the sideNums variable to draw polygons with a different number of sides.
+When you run this program, it will create a graphics window, draw a polygon (in this case, a pentagon) with 5 sides, and exit when you click on the window. You can modify the `sideNums` variable to draw polygons with a different number of sides.
 
 ### [Constructor](Python_Exercises\Lectures\P2.py)
-This code snippet includes the basic knowledge about the OOP constructor.
+This code defines a simple class Demo with a constructor `__init__`. When an object of this class is created (as shown by `d = Demo()`), the constructor is executed, and it prints "Good morning" to the console. The `constructor` is a special method that gets called automatically when an object is instantiated from a class, and it can be used to initialize attributes or perform any setup needed for the object.
 
 ### [Constructor (2)](Python_Exercises\Lectures\P3.py)
-This code snippet is also about the concept known as the constructor, it shows the calling of a variable outside the class.
+This code defines a class `A` with a constructor that initializes two instance variables `a` and `b`. It also has a method `addNumber` that calculates and prints the sum of these variables. When an instance `abc` is created with values `10` and `30`, it can call the `addNumber` method to perform addition on these values and display the result.
 
 ### [OOP](Python_Exercises\Lectures\Test.py)
-This code snippet includes the introduction for OOP, it shows public and private variable,  normal method, how you call a method outside the class, and the meaning of the word 'self' in a method.
+This code defines a class `Test` with class attributes and methods. It creates an instance of the class and calls the `display` method successfully but encounters an error when trying to access the private attribute `__b` in the `addNumbers` method.
 
 ### [Loops](Python_Exercises\Lectures\w1-loops.py)
-This script is about python loops, 'for' loops and 'while' loops are included here. Random module and Time module was imported in this script.
+This script is a collection of code snippets that demonstrate various concepts related to `timers`, `loops`, and `random` number generation. 
 
 ### [Print & Input](Python_Exercises\Lectures\w1-print-input.py)
-This is the first lecture we had in programming, it includes the basic function 'print' and 'input'. It is explained that a single quote or a double quote can be used in a one line sentence, while the triple quote is used to create a paragraph form of the sentence. You can occupy as many lines as you like, as long as you use tripe quotes. 
+This is the first lecture we had in programming, it includes the basic function `print` and `input`. It is explained that a single quote `'` or a double quote `"` can be used in a one line sentence, while the triple quote  `"""` `'''` is used to create a paragraph form of the sentence. You can occupy as many lines as you like, as long as you use tripe quotes. 
 
-In this script, I also included if-else statements, just to test my capabilities and my knowledge in this certain topic. I've learned it from w3schools website.
+In this script, I also included `if-else` statements, just to test my capabilities and my knowledge in this certain topic. I've learned it from `w3schools` website.
+
+The script combines `colorful text`, `user input`, and `ASCII art` to create an interactive and visually appealing menu. Depending on the user's choice, they will see a different `ASCII art` representation of the selected item.
 
 ### [Functions](Python_Exercises\Lectures\w2-functions.py)
-This script is about functions. At first, I had a lot of trouble understanding it, but after awhile, I've come to understand the use of a function. It is used to prevent your code from repeating, because as the time goes by, you will need to have more classes, more functions, and more attributes. And knowing the basic information about Functions is a must.
-    
-This script includes the basic information about Functions, how to use and call it.
+This script demonstrates how to create `functions` with `parameters`, use them to avoid code repetition, and illustrates the concept of `variable scope` within and outside functions.
 
 ### [Lists](Python_Exercises\Lectures\w2-lists.py)
-This script shows different kinds of lists, whether it is string or integer. In this script, not only the lists were used, for loops and importing modules were also executed.
+This code snippet serves as a practical introduction to working with `lists` in Python, demonstrating common operations like `indexing`, `appending`, and `removing elements`, as well as finding `statistics` like the `maximum`, `minimum`, `average`, and `sum` of values in a list.
+
+In this script, not only the lists were demonstrated, `for` loops and importing `modules` were also executed.
 
 ### [Random Choice](Python_Exercises\Lectures\w2-random-choice.py)
-This script includes random module, it shows how to import a specific, class, attribute or variable from a module. 
+This code demonstrates a simple use case of the `random.choice()` function to randomly select an item from a list of cities and print it as part of a travel-related message. The `random` module is used for randomization, and the specific `choice` function is imported for this purpose.
 
 ### [Strings](Python_Exercises\Lectures\w2-strings.py)
-This lecture is the continuation and more broad knowledge about strings. The instructor discussed different kinds of strings and taught us some basic shortcut we can use in coding.
+This code provides an overview of string handling in Python, including string declaration, indexing, length, comparison, concatenation, conversion, and the use of escape sequences for special characters within strings.
 
 ### [Class](Python_Exercises\Lectures\w3-class.py)
-This lecture is about Class, class Test is used as an example. Privacy and protection of variable is also discussed in this script. The instructor showed us how to call a method outside the class, and taught us that the private variable cannot be called outside and will basically error.
+This lecture illustrates the concept of `public`, `protected`, and `private` variables in a `class`. `Public variables` are accessible from anywhere, `protected variables` should not be accessed directly from outside the class (though it's not enforced by Python), and `private variables` are intended to be hidden from external access, with access typically controlled through getter and setter methods.
+
+
 
 ## Exercises
 This section is for python exercises given by the lecturers and was done by the students. These are the weekly activities given to test the python skills of the students, and to expand their knowledge in python.
@@ -83,14 +88,35 @@ This section is for python exercises given by the lecturers and was done by the 
 ### [Ex1-1 Name](Python_Exercises\Exercises\ex1-1-name.py)
 In this exercise, I used 'input' function and 'print' function. The user will be asked to input their first name and their last name. And as a result, it will print: "Hi, (first name) (last name)". 
 
+### [Ex1-2 ASCII Cats](Python_Exercises\Exercises\ex1-2-cats.py)
+In this exercise, `print` function was used to display ASCII art cats with different styles and characters. Each cat is created by arranging `ASCII` characters to resemble a cat's face and body, and they are printed in different colors for visual appeal.
+
 ### [Ex1-3 Farenheit to Celsius](Python_Exercises\Exercises\ex1-3-f-to-c.py)
-This system is a temperature converter, it converts Farenheit to Celsius. To make this work, I used 'print & input' function again. I added a small title at the beginning and put the input function where the user can input the temperature in Farenheit (only numbers are accepted, whether it is a whole number or a decimal number), I added a variable that contains the formula of the conversion and print the result afterwards.
+This system is a temperature converter, it converts Farenheit to Celsius. To make this work, I used `print` and `input` function again. I added a small title at the beginning and put the `input` function where the user can input the temperature in Farenheit (only numbers are accepted, whether it is a whole number or a decimal number), I added a variable that contains the formula of the conversion and print the result afterwards.
+
+### [Ex1-4 Mathematics Calculation](Python_Exercises\Exercises\ex1-4.py)
+This code essentially performs a mathematical computation based on the user's `input` values and `prints` the result. The specific calculation is based on the formula provided in the code.
+
+### [Ex1-5 Role](Python_Exercises\Exercises\ex1-5.py)
+This code is a simple Python program that takes user input for their `first name`, `last name`, and `role`, and then constructs and prints a formatted result string.
+
+### [Ex1-6 Time](Python_Exercises\Exercises\ex1-6.py)
+This code allows the user to convert a given number of seconds into a more human-readable format, breaking it down into days, hours, minutes, and seconds.
+
+### [Ex1-7 N-NN-NNN](Python_Exercises\Exercises\ex1-7.py)
+This Python script starts by accepting a single-digit number from the user. It then performs a series of operations on this input to generate two additional numbers, `nn` and `nnn`. Finally, it calculates the sum of these three numbers and presents the result in a well-formatted string for display.
+
+### [Ex2-1 Positive or Negative](Python_Exercises\Exercises\ex2-1.py)
+This Python code snippet determines whether a given numeric value is `positive` or `negative`.
+
+### [Ex2-2 Discount Calculator](Python_Exercises\Exercises\ex2-2.py)
+This Python code is a discount calculator. It takes the total amount of money spent as input and calculates the discount based on the total amount. 
 
 ### [Ex2-3 Inspiration](Python_Exercises\Exercises\ex2-3-insp.py)
-This exercise uses input and print function and the if-else statements. When you run this script, it will ask you to input a programming language, and based on your input, it will provide a suggestion for the type of developer role you can pursue. If your input doesn't match any of the specified languages, it will encourage you to focus on problem-solving skills instead.
+This exercise uses `input` and `print` function and the `if-else` statements. When you run this script, it will ask you to input a programming language, and based on your input, it will provide a suggestion for the type of developer role you can pursue. If your input doesn't match any of the specified languages, it will encourage you to focus on problem-solving skills instead.
 
 ### [Ex2-4 Grade Calculator](Python_Exercises\Exercises\ex2-4-gradecal.py)
-This Python code takes a user's input as their exam mark, evaluates the mark, and then prints out a corresponding grade or message based on the mark. This python code also uses input and print function, and if-else statements.
+This Python code takes a user's input as their exam mark, evaluates the mark, and then prints out a corresponding grade or message based on the mark. This python code also uses `input` and `print` function, and `if-else` statements.
 
 ### [Ex2 Method Function](Python_Exercises\Exercises\Ex2-method-function.py)
 This Python code uses the Turtle graphics library to draw a series of squares with different colors and a red circular turtle cursor. After drawing the squares, the program will wait for you to click on the screen to close the graphics window.
@@ -194,8 +220,8 @@ This program uses the time module to get the current time, extracts the hour com
 ### [Cat Details](Python_Exercises\Exercises\main-3.py)
 This program showcases OOP principles. It defines a base Cat2 class, inherits from it to create specific types of cats, and demonstrates polymorphism through method overriding. It also exemplifies encapsulation by using private attributes like __isHappy and provides getter and setter methods for them.
 
-    `Cat2.py`
-    `main-3.py`
+-   [Cat2.py](Python_Exercises\Exercises\Cat2.py)
+-   [main-3.py](Python_Exercises\Exercises\main-3.py)
 
 ### [Menu](Python_Exercises\Exercises\Product.py)
 This Python program defines a Product class that represents a product in a cafe. It has various methods to manage the product's attributes such as name, price, and quantity, and it simulates selling and cost calculation. 
@@ -245,7 +271,7 @@ This section is for the projects that I found in GitHub, YouTube and Google. I'v
 
     This Python program is a simple endless runner game built using the Pygame library. The player controls a character that can jump to avoid obstacles, and the goal is to achieve the highest score possible by surviving as long as possible. 
 
-## Usage
+
 
 ## References
 | Developer | Type     | Source Code                              |
@@ -257,4 +283,4 @@ This section is for the projects that I found in GitHub, YouTube and Google. I'v
 `BugNinza`              | `turtle` | [Spring](https://www.youtube.com/shorts/nIgkClbUIME)
 `sagartomar9927` and `gowthammallela231`          | `turtle` | [Starry Night](https://www.geeksforgeeks.org/draw-starry-sky-with-moon-using-turtle-in-python/)
 
-You can find the APA format of these references for this project in the [Research Repository](https://github.com/Ylese/Research-Repository/blob/main/IT5016_Assessment-3_20231319.docx) file.
+<!-- You can find the APA format of these references for this project in the [Research Repository]() file. -->

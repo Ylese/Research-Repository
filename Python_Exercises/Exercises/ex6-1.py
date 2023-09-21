@@ -1,3 +1,4 @@
+# converts the characters into different formats 
 my_str = "Life's too short to be serious. Smile and laugh more!"
 str1 = my_str.upper()
 str2 = my_str.lower()
