@@ -257,4 +257,4 @@ This section is for the projects that I found in GitHub, YouTube and Google. I'v
 `BugNinza`              | `turtle` | [Spring](https://www.youtube.com/shorts/nIgkClbUIME)
 `sagartomar9927` and `gowthammallela231`          | `turtle` | [Starry Night](https://www.geeksforgeeks.org/draw-starry-sky-with-moon-using-turtle-in-python/)
 
-You can find the APA format of these references for this project in the [Research Repository](./documentation.pdf) file.
+You can find the APA format of these references for this project in the [Research Repository](https://github.com/Ylese/Research-Repository/blob/main/IT5016_Assessment-3_20231319.docx) file.
