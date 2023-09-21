@@ -21,21 +21,21 @@ When you run this code, it will create a bank account, perform the specified tra
 
 This includes two classes, `BankAccount` class which includes everything that is needed in the program, and the `Main` class; It allows you to control what happens when your script is run. Code inside this block will only execute if the script is the main program (i.e., directly executed by the Python interpreter). If the script is imported as a module into another script, the code inside this block won't execute.
 
--    [Bank Account](Python_Exercises\Lectures\Bank_Account\BankAccount.py)
--    [Main](Python_Exercises\Lectures\Bank_Account\Main.py)
+-    [Bank Account](Python_Exercises/Lectures/Bank_Account/BankAccount.py)
+-    [Main](Python_Exercises/Lectures/Bank_Account/Main.py)
 
 
 
-### [Library](Python_Exercises\Lectures\Library\Main.py)
+### [Library](Python_Exercises/Lectures/Library/Main.py)
 This program essentially provides a text-based interface for users to interact with the library by borrowing and returning books and checking their account information.
 
--   [Main](Python_Exercises\Lectures\Library\Main.py)
--   [Library](Python_Exercises\Lectures\Library\Library.py)
--   [User](Python_Exercises\Lectures\Library\User.py)
--   [Book](Python_Exercises\Lectures\Library\Book.py)
+-   [Main](Python_Exercises/Lectures/Library/Main.py)
+-   [Library](Python_Exercises/Lectures/Library/Library.py)
+-   [User](Python_Exercises/Lectures/Library/User.py)
+-   [Book](Python_Exercises/Lectures/Library/Book.py)
 
 
-### [Character](Python_Exercises\Lectures\Character.py)
+### [Character](Python_Exercises/Lectures/Character.py)
 This program contains basic information about OOP. It includes class Character with attributes `name`, and `health_points`.
 
 ### [Starter](Python_Exercises\Lectures\Ex-1-starter.py)
